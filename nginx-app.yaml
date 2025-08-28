@@ -34,4 +34,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-  type: LoadBalancer # K3s 会通过 Traefik 提供一个简单的 NodePort/LoadBalancer
+  type: NodePort # K3s 会通过 Traefik 提供一个简单的 NodePort/LoadBalancer
